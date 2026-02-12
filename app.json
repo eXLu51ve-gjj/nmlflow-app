@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "nmL Flow",
+    "slug": "nmlflow-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "nmlflow",
+    "userInterfaceStyle": "dark",
+    "icon": "./assets/images/logo.png",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nmlflow.app",
+      "icon": "./assets/images/logo.png"
+    },
+    "android": {
+      "package": "com.nmlflow.app",
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo.png",
+        "backgroundColor": "#1a1a2e"
+      }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      [
+        "expo-notifications",
+        {
+          "color": "#8b5cf6"
+        }
+      ],
+      "expo-asset"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
