@@ -1,6 +1,8 @@
-# nmL Flow Mobile - Android Application
-
 <div align="center">
+
+<img src=".github/logo.png" alt="nmL Flow Logo" width="300"/>
+
+# nmL Flow Mobile - Android Application
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
 ![React Native](https://img.shields.io/badge/react--native-0.76-green.svg)
